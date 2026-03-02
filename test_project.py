@@ -51,10 +51,10 @@ except Exception as e:
 print("\n[4/6] Testing Model Architecture...")
 try:
     import torch
-    from src.model import SimpleANN, WineClassifierANN
+    from src.model import SimpleANN, WineClassification
 
     model1 = SimpleANN(input_size=X_train_eng.shape[1], num_classes=3)
-    model2 = WineClassifierANN(input_size=X_train_eng.shape[1], num_classes=3)
+    model2 = WineClassification(input_size=X_train_eng.shape[1], num_classes=3)
 
     # Test forward pass
     test_input = torch.randn(10, X_train_eng.shape[1])
