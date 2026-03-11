@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix
 
-# Add src to path
+# Add src to path for imports
 sys.path.append('src')
 
 from model import SimpleANN, WineClassification
