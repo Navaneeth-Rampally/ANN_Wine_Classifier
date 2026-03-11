@@ -6,7 +6,7 @@ A machine learning wine classifier deployed on **Azure App Service** via **GitHu
 
 ## 📋 Prerequisites
 
-- Azure CLI installed and authenticated
+- Azure CLI installed and authenticated or use Azure clous shell in azure console. 
 - GitHub repository with Actions enabled
 - Python 3.11 application with a `startup.sh` script
 
